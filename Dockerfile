@@ -23,7 +23,7 @@ RUN pip install --upgrade pip && \
   chmod -R 755 /vol
 # chmod -R +x /scripts
 
-ENV PATH="/py/bin:$PATH"
+ENV PATH="$PATH"
 
 USER app
 
